@@ -1,0 +1,6 @@
+      invoke  active_record
+      create    db/migrate/20150221212538_create_messages.rb
+      create    app/models/message.rb
+      invoke    test_unit
+      create      test/models/message_test.rb
+      create      test/fixtures/messages.yml
